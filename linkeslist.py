@@ -25,9 +25,11 @@ class Logic:
     
     def display(self):
         temp= self.head
+        arr=[]
         while temp:
-            print(temp.node)
+            arr.append(temp.node)
             temp=temp.next
+        return arr
     
     def addHead(self,value):
         newNode= LinkedList(value)
