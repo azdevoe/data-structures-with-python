@@ -7,5 +7,4 @@ def insertion(arr):
             j-=1
         arr[j+1]=value
     return arr
-
-print(insertion([6,4,5,2,7,1]))
+print(insertion([6,5,7,3,9,55,1]))
