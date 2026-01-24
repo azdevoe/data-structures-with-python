@@ -16,6 +16,7 @@ class Logic:
             self.tail = newNode
             return
         self.tail.next=newNode
+        self.tail=newNode
     
     def pop(self):
         temp = self.head
