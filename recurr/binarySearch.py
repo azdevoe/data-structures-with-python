@@ -6,7 +6,7 @@ def binarySearch(arr,target):
             r=mid
         else:
             l=mid
-    if arr[l] != target:
+    if arr[l]!=target:
         return -1
     return l
 
