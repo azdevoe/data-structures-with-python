@@ -29,3 +29,12 @@ dd={
 #depthFirst(dd,"a")
 breadthFirst(dd,"a")
 
+an={
+    "i":["j","k"],
+    "j":["i","k"],
+    "k":["i","m","l","j"],
+    "l":["k"],
+    "m":["k"],
+    "n":["o"],
+    "o":["n"]
+}
